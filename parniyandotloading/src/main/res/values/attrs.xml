@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <attr name="dotCount" format="integer" />
+        <attr name="dotRadius" format="dimension" />
+        <attr name="dotSpacing" format="dimension" />
+        <attr name="dotMaxSize" format="dimension" />
+        <attr name="dotMinSize" format="dimension" />
+        <attr name="dotColors" format="reference|color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="dot_color_1">#9984D4</color>
+    <color name="dot_color_2">#592E83</color>
+    <integer-array name="loading_dot_colors">
+        <item>@color/dot_color_1</item>
+        <item>@color/dot_color_1</item>
+        <item>@color/dot_color_2</item>
+        <item>@color/dot_color_2</item>
+        <item>@color/dot_color_2</item>
+    </integer-array>
+</resources>
