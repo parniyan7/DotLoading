@@ -7,12 +7,19 @@
     tools:context=".MainActivity">
 
     <com.parniyan.parniyandotloading.LoadingView
-        android:id="@+id/loading_view"
+        android:id="@+id/loadingView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:dotMinSize="6dp"
+        app:dotCount="5"
+        app:dotRadius="8dp"
+        app:dotSpacing="100dp"
+        app:dotMaxSize="32dp"
+        app:dotColors="@array/loading_dot_colors" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
