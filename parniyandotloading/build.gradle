@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'parniyan7'
+group = 'parniyandotloading'
 version '2.0.0'
 android {
     namespace 'com.parniyan.parniyandotloading'
@@ -50,7 +50,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.parniyan7'
+                groupId = 'com.parniyan.parniyandotloading'
                 artifactId = 'DotLoading'
                 version = '2.0.0'
             }
