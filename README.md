@@ -1,5 +1,7 @@
 # LoadingView Kotlin Library
 
+https://github.com/parniyan7/DotLoading/assets/51333944/fe28bdb7-a5c1-47f4-a5f1-8f81a3f85264
+
 LoadingView is a customizable view for displaying a loading animation consisting of multiple dots. This library provides a simple and easy-to-use interface for creating and controlling a loading animation, and allows customization of the dot count, size, spacing, and colors.
 
 ## UsageTo use LoadingView in your project, add the following dependency to your module's `build.gradle` file:
