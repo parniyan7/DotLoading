@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'parniyandotloading'
-version '2.0.0'
+version '4.0.0'
 android {
     namespace 'com.parniyan.parniyandotloading'
     compileSdk 33
@@ -26,11 +26,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '17'
     }
 }
 
@@ -52,7 +52,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.parniyan.parniyandotloading'
                 artifactId = 'DotLoading'
-                version = '2.0.0'
+                version = '4.0.0'
             }
         }
     }
